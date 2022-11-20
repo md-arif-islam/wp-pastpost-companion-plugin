@@ -1,0 +1,76 @@
+
+#respond {
+    background-color: #ffffff00 !important;
+    padding: 0;
+}
+
+#respond input,
+#respond textarea {
+    background: #F0F0F0 !important;
+    border-radius: 4px !important;
+    border: 0;
+    outline: 0;
+}
+
+#respond input:hover,
+#respond input:focus {
+    border: 0;
+    outline: 0;
+}
+
+#reply-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #424040;
+    margin-bottom: 30px;
+}
+
+#respond p.comment-notes {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #9E9E9E;
+}
+
+#respond .ast-comment-formwrap {
+    padding: 0 20px;
+    display: inline-flex;
+    column-gap: 50px;
+}
+
+#respond .comments_label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.comment-form-cookies-consent label {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #9E9E9E;
+}
+
+#respond .form-submit button {
+    background: #233161;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    text-align: center;
+    color: #FDE367;
+    padding: 15px 100px;
+}
