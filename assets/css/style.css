@@ -1,20 +1,96 @@
-
 #respond {
     background-color: #ffffff00 !important;
     padding: 0;
+    margin-top:3rem;
+}
+.comments-area {
+    border-top: 0px;
+    margin-top: 2em;
+}
+
+#respond form a{
+    color:#233161!important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.comments-title{
+    display:none;
+}
+
+
+.ast-comment-list{
+    padding-left:0px;
+}
+
+.ast-comment-list a{
+    color:#233161!important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.ast-comment-list li{
+    background: #F0F0F0 !important;
+    border-radius: 4px !important;
+    padding:0 2rem;
+    margin: 15px 0;
+}
+
+.ast-comment-list li img.avatar {
+    border-radius: 50%;
+}
+
+.ast-comment-meta {
+    justify-content: right;
+    padding: 5px 3.4em 1.60em;
+}
+
+.ast-comment-cite-wrap a.url {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    color: #424040;
+}
+
+.ast-comment-time time{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #9E9E9E;
+
+}
+
+.ast-comment-content.comment p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424040;
+}
+
+.ast-comment-content.comment p.ast-highlight-text{
+    color:#233161;
 }
 
 #respond input,
 #respond textarea {
     background: #F0F0F0 !important;
     border-radius: 4px !important;
-    border: 0;
+    border: 2px solid #fff;
     outline: 0;
 }
 
 #respond input:hover,
 #respond input:focus {
-    border: 0;
+    border: 2px solid #fff;
     outline: 0;
 }
 
@@ -43,6 +119,26 @@
     column-gap: 50px;
 }
 
+.comment-form-url label{
+    width:100%;
+}
+
+@media only screen and (max-width:768px) {
+    #respond .ast-comment-formwrap {
+        display: flex;
+        flex-direction:column;
+    }
+}
+
+#respond form{
+    padding: 15px 0;
+}
+
+
+.ast-comment-list .children li{
+    padding:0rem 0 2rem 0;
+}
+
 #respond .comments_label {
     font-family: 'Poppins';
     font-style: normal;
@@ -62,9 +158,10 @@
     color: #9E9E9E;
 }
 
-#respond .form-submit button {
-    background: #233161;
-    border-radius: 4px;
+
+#respond .form-submit input {
+    background: #233161!important;
+    border-radius: 4px!important;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
